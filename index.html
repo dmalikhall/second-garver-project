@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="date=no" />
+    <meta name="format-detection" content="address=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    <!--[if !mso]>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap');
+</style>
+<![endif]-->
+
+    <style type="text/css">
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+
+        /* main elements */
+        body {
+            font-family: 'Open Sans', 'Roboto Black', 'Roboto', Arial, sans-serif;
+            background: #ffffff;
+            color: #555555;
+            margin: 0;
+            padding: 0;
+        }
+
+        a,
+        a:visited {
+            color: #555555;
+            text-decoration: none;
+        }
+
+        a:hover,
+        a:active {
+            color: #782f40;
+            text-decoration: none;
+        }
+
+        a.red,
+        a.red:visited {
+            color: #782f40;
+            text-decoration: none;
+        }
+
+        a.red:hover,
+        a.red:active {
+            color: #555555;
+            text-decoration: none;
+        }
+
+
+        h1,
+        h2 {
+            font-family: 'Roboto Black', 'Roboto', Arial, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Roboto Black', 'Roboto', Arial, sans-serif;
+            font-size: 28px;
+            margin: 16px 0 16px 0;
+            padding: 0;
+            text-decoration: none;
+            text-align: left;
+            font-weight: 900;
+            letter-spacing: 0px;
+            line-height: normal;
+        }
+
+
+        h2 {
+            font-family: 'Roboto Black', 'Roboto', Arial, sans-serif;
+            font-size: 20px;
+            margin: 12px 0 12px 0;
+            padding: 0;
+            text-decoration: none;
+            text-align: left;
+            font-weight: 900;
+            letter-spacing: 0px;
+            line-height: normal;
+        }
+
+        h3 {
+            font-family: 'Open Sans Light', 'Open Sans', Arial, sans-serif;
+            font-size: 20px;
+            margin: 12px 0 12px 0;
+            padding: 0;
+            text-decoration: none;
+            text-align: left;
+            font-weight: normal;
+            letter-spacing: 1px;
+            line-height: normal;
+        }
+
+
+        .subtitle {
+            font-family: 'Open Sans Light', 'Open Sans', Arial, sans-serif;
+            text-decoration: none;
+        }
+
+        .sectionHeadTable {
+            display: block;
+            padding-bottom: 4px;
+        }
+
+        .sectionHeadTable+.articleRow {
+            display: block;
+            padding-top: 12px;
+        }
+
+        .sectionHeadtitle {
+            font-size: 12px;
+            text-align: left;
+            line-height: normal;
+            display: block;
+            padding: 0;
+            letter-spacing: 2px;
+            margin: 12px 0 0 0;
+            color: #999;
+        }
+
+        .sectionHead {
+            font-size: 12px;
+            font-weight: bold;
+            text-align: left;
+            line-height: 18px;
+            display: block;
+            padding: 0;
+            letter-spacing: 2px;
+            margin: 0 0 8px 0;
+            color: #999;
+        }
+
+        .sectionHead2 {
+            font-size: 12px;
+            font-weight: bold;
+            text-align: left;
+            line-height: 18px;
+            display: block;
+            padding: 0;
+            letter-spacing: 2px;
+            margin: 0 0 4px 0;
+            color: #999;
+        }
+
+        .sectionHead.white {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .sectionHead+h1,
+        .sectionHead+a>h1,
+        .sectionHeadTable+h1 {
+            margin-top: 6px;
+            line-height: normal;
+        }
+
+        .sectionHeadIcon {
+            line-height: 0;
+            font-size: 0;
+            width: 32px;
+            border-spacing: 0;
+        }
+
+        .sectionHeadIcon img {
+            width: 28px;
+            height: 28px;
+            border: 0;
+        }
+
+        .sectionHeadTitle {
+            color: #666666;
+            font-size: 11px;
+            margin: 16px 0 8px 0;
+            padding: 0;
+            text-decoration: none;
+            text-align: left;
+            font-weight: bold;
+            letter-spacing: 1px;
+            line-height: normal;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 28px;
+            margin: 0 0 28px 0;
+            padding: 0;
+        }
+
+        p.small {
+            font-size: 14px;
+            line-height: 24px;
+            margin: 0 0 24px 0;
+            padding: 0;
+        }
+
+        p.footer {
+            margin: 0;
+        }
+
+        ul,
+        ol {
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+        li {
+            margin-bottom: 16px;
+        }
+
+        img {
+            border: 0;
+        }
+
+        img.fullWidth {
+            width: 100%;
+            min-width: 200px;
+            max-width: 700px;
+            height: auto;
+        }
+
+        table {
+            border: 0;
+            border-collapse: collapse;
+            border-spacing: 0;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        td {
+            border-spacing: 0;
+        }
+
+
+
+        /* buttons and links */
+        .callToAction {
+            font-size: 12px;
+            margin: 16px 0 0 0;
+            text-align: left;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            letter-spacing: 2px;
+        }
+
+        .buttonContainer,
+        .buttonContainer tr,
+        .buttonContainer td {
+            width: 100%;
+            margin: 0;
+        }
+
+        .button,
+        .button td {
+            text-align: center;
+            width: 260px;
+            height: 50px;
+            vertical-align: middle;
+        }
+
+        .buttonPadding {
+            padding: 16px 0;
+        }
+
+        .buttonFull {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .buttonFull td {
+            width: 100%;
+            height: 50px;
+        }
+
+        .buttonRed,
+        .buttonRed td {
+            color: #ffffff;
+            background: #782f40;
+        }
+
+        .buttonRed td:hover {
+            background: #666666;
+        }
+
+        .buttonRed td a {
+            display: block;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 50px;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: 1px;
+            height: 50px;
+        }
+
+
+        /* containers and dividers */
+        .sectionContainer {
+            width: 100%;
+            border: 0;
+            text-align: left;
+            padding: 0;
+            margin: 0;
+        }
+
+        .greySection {
+            width: 100%;
+            border: 0;
+            text-align: left;
+            background: #f4f4f4;
+        }
+
+        .redSection {
+            width: 100%;
+            border: 0;
+            text-align: left;
+            background: #782f40;
+            color: #ffffff;
+        }
+
+        .header>tbody>tr>td {
+            padding: 24px 0;
+        }
+
+        .headerDivider {
+            width: 100%;
+        }
+
+        .headerDivider td {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        .divider {
+            padding: 0;
+            float: left;
+            border-collapse: collapse;
+            border-spacing: 0;
+            border-spacing: 0;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        .divider td {
+            overflow: hidden;
+            margin: 0;
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+
+        .fixed-container {
+            width: 700px;
+            max-width: 700px;
+        }
+
+        .fixed-700 {
+            width: 700px;
+            max-width: 700px;
+        }
+
+        .fixed-340 {
+            width: 340px;
+            max-width: 340px;
+        }
+
+        .fixed-220 {
+            width: 220px;
+            max-width: 220px;
+        }
+
+        .fixed-160 {
+            width: 160px;
+            max-width: 160px;
+        }
+
+        .fixed-80 {
+            width: 80px;
+            max-width: 80px;
+        }
+
+        .force-700 {
+            margin: 0;
+            padding: 0;
+            line-height: 0px;
+            font-size: 0px;
+        }
+
+        .force-700 img {
+            width: 700px;
+            height: 1px;
+            border: 0;
+        }
+
+        .margins {
+            min-width: 20px;
+        }
+
+
+        /* image styles */
+        .floatImgRight {
+            margin: 0;
+            padding: 0;
+            border-spacing: 0;
+            border-collapse: collapse;
+            mso-table-lspace: 0;
+            mso-table-rspace: 0;
+            display: block;
+        }
+
+        .floatImgRight tr {
+            width: 100%;
+        }
+
+        .floatImgRight td {
+            padding-left: 32px;
+            padding-bottom: 26px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .floatImgRight img {
+            display: block;
+            margin: auto;
+            width: 180px;
+            max-width: 280px;
+        }
+
+        .articleImg700 {
+            width: 100%;
+            max-width: 700px;
+            height: auto;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+            display: block;
+        }
+
+        .articleImg340 {
+            width: 100%;
+            max-width: 340px;
+            height: auto;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+            display: block;
+        }
+
+        .articleImg220 {
+            width: 100%;
+            max-width: 220px;
+            height: auto;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+            display: block;
+        }
+
+        .articleImg160 {
+            width: 100%;
+            max-width: 160px;
+            height: auto;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+            display: block;
+        }
+
+        .portrait {
+            width: 100%;
+            max-width: 80px;
+            height: auto;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+            display: block;
+        }
+
+
+        /* padding and spacing options*/
+        .padding {
+            padding: 36px 0;
+        }
+
+        .paddingTop {
+            padding: 36px 0 0 0;
+        }
+
+        .paddingBottom,
+        .articlePadding {
+            padding: 0 0 36px 0;
+        }
+
+        .paddingHeader {
+            padding: 20px 0;
+        }
+
+        .paddingZero {
+            padding: 0;
+        }
+
+        .lineSpacing {
+            margin: 16px 0;
+        }
+
+        .lineSpacingMiddle {
+            margin-top: 6px;
+        }
+
+        .lineSpacingBottom {
+            margin-bottom: 16px;
+        }
+
+        .lineSpacingTop {
+            margin-top: 16px;
+        }
+
+        .lineSpacingNone {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .flushTop {
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        .endbodyPadding {
+            padding: 0 0 32px 0;
+        }
+
+        .heightAuto {
+            height: auto;
+        }
+
+        /* backgrounds */
+        .whiteBg {
+            background: #fff;
+        }
+
+        .redBg {
+            background: #782f40;
+        }
+
+        .greyBg {
+            background: #f4f4f4;
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            body {
+                color: #ffffff !important;
+                background: #2f2f2f !important;
+            }
+
+            p {
+                color: #ffffff !important;
+            }
+
+            h1 {
+                color: #ffffff !important;
+            }
+
+            .sectionHead {
+                color: #ffffff !important;
+            }
+
+            .sectionHeadsub {
+                color: #ffffff !important;
+            }
+
+            .bgwhite {
+                background: #2f2f2f !important;
+            }
+
+            .bggrey {
+                background: #222222 !important;
+            }
+
+            .bglgrey {
+                background: #222222 !important;
+            }
+
+            .greySection {
+                background: #222222 !important;
+            }
+
+        }
+
+        /* mobile styles */
+        @media screen and (max-width:760px) {
+            .fixed-container {
+                width: 100% !important;
+                max-width: 100% !important;
+                box-sizing: border-box;
+                clear: both;
+            }
+
+            .fixed-700,
+            .fixed-340,
+            .fixed-220,
+            .fixed-160,
+            .fixed-80 {
+                width: 100% !important;
+                max-width: 100% !important;
+                box-sizing: border-box;
+                clear: both;
+            }
+
+            .articleImg700,
+            .articleImg340,
+            .articleImg220,
+            .articleImg160,
+            .image75center,
+            .image50center,
+            .image25center {
+                max-width: 100% !important;
+            }
+
+            .force-700,
+            .mobHide {
+                display: none;
+            }
+
+            .mob100 {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .margins {
+                width: 20px;
+            }
+
+            .padding {
+                padding: 48px 0;
+            }
+
+            .paddingTop {
+                padding: 48px 0 0 0;
+            }
+
+            .paddingBottom {
+                padding: 0 0 48px 0 !important;
+            }
+
+            .sectionContainer {
+                padding-top: 200px !important;
+            }
+
+            .floatImgRight {
+                float: none !important;
+                display: table !important;
+                margin: auto;
+                max-width: 100% !important;
+                width: 100% !important;
+                text-align: center;
+                clear: both !important;
+            }
+
+            .floatImgRight td {
+                padding-left: 0 !important;
+            }
+
+            .floatImgRight td img {
+                margin: auto !important;
+            }
+        }
+
+        /* client specific styles */
+        @media screen yahoo {
+
+            .fixed-80,
+            .fixed-160,
+            .fixed-220,
+            .fixed-340,
+            .fixed-700 {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                box-sizing: border-box;
+                clear: both;
+            }
+        }
+
+        [owa] .fixed-160,
+        [owa] .fixed-220,
+        [owa] .fixed-340,
+        [owa] .fixed-700 {
+            display: block !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            box-sizing: border-box;
+            clear: both;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+    </style>
+
+    <!--[if gte mso 9]>
+<style type="text/css">
+
+	/* Fallback Text */
+	body {
+		font-family: Arial, sans-serif !important;
+	}
+	table, td, h1, h2, h3, p, li, a, span, font {
+		font-family: Arial, sans-serif !important;
+	}
+
+	table {
+		border-spacing:0; mso-line-height-rule: exactly; mso-table-lspace:0pt; mso-table-rspace:0pt !important;
+	}
+	td {
+		border-spacing:0; mso-line-height-rule: exactly; mso-table-lspace:0pt; mso-table-rspace:0pt !important;
+	}
+	.msohide {
+		height:0 !important;
+		width:0 !important;
+		line-height:0 !important;
+		font-size:0 !important;
+		display:none !important;
+		overflow:hidden !important;
+	}
+	.fallback-text {
+		font-family: Arial, sans-serif !important;
+	}
+	.fixed-table {
+		width:700px !important;
+	}
+    .divider {
+        width:10px; margin:0; paddding:0 !important;
+    }
+	.fixed-160 {
+		width:160px margin:0; paddding:0 !important;
+	}
+	.fixed-220 {
+		width:220px margin:0; paddding:0 !important;
+	}
+	.fixed-340 {
+		width:340px margin:0; paddding:0 !important;
+	}
+	.fixed-700 {
+		width:700px margin:0; paddding:0 !important;
+	}
+
+	.lineSpacingNone {
+		margin: 0; padding:0;
+	}
+</style>
+<![endif]-->
+
+
+    <title>Garver Email Template</title>
+</head>
+
+<body>
+    <!-- START EMAIL PREVIEW TEXT -->
+    <div style="display: none; max-height: 0px; overflow: hidden; line-height:0;">
+        EMAIL PREVIEW TEXT GOES HERE!
+    </div>
+    <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->
+    <div style="display: none; max-height: 0px; overflow: hidden;">
+        &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+    </div>
+    <!-- END EMAIL PREVIEW TEXT -->
+
+
+    <!-- BODY STARTS HERE -->
+
+    <!-- ########################## -->
+    <!-- HEADER BAR -->
+    <!-- ########################## -->
+    <table role="presentation" class="sectionContainer greySection header" cellpadding="0" cellspacing="0" width="700">
+        <tbody>
+            <tr>
+                <td class="margins">&nbsp;</td>
+                <td width="700" class="fixed-700">
+
+                    <!-- FORCE 700px DESKTOP CLIENTS -->
+                    <p class="force-700"><img src="http://media.garverusa.com/2020/general/spacer.png" width="700"
+                            height="1" alt="" class="mobHide" /></p>
+                    <!-- END FORCE -->
+
+                    <a href="https://garverusa.com" target="_blank">
+                        <img src="https://raw.githubusercontent.com/dmalikhall/garver-project/main/images/garver-alt-logo.png"
+                            width="150" height="27" alt="Garver Home Link"
+                            style="max-width: 150px; min-width: 150px; height: auto; border: 0;">
+                    </a>
+
+                </td>
+                <td class="margins">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- ########################## -->
+    <!-- END HEADER BAR -->
+    <!-- ########################## -->
+
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="sectionContainer greySection">
+        <colgroup>
+            <col>
+            <col width="700" class="fixed-700">
+            <col>
+        </colgroup>
+        <tbody>
+
+            <!--START ROW-->
+            <tr>
+                <td class="margins">&nbsp;</td>
+                <td width="700" class="fixed-700 padding" style="padding-top: 0">
+
+                    <!-- FORCE 700px DESKTOP CLIENTS -->
+                    <p class="force-700"><img src="http://media.garverusa.com/2020/general/spacer.png" width="700"
+                            height="1" alt="spacer" class="mobHide" /></p>
+                    <!-- END FORCE -->
+
+                    <table role="presentation" align="right" cellspacing="0" cellpadding="0" border="0"
+                        class="floatImgRight">
+                        <tr>
+                            <td align="center" class="portraitImg">
+                                <img src="https://raw.githubusercontent.com/dmalikhall/garver-project/main/images/portrait.png"
+                                    alt="portrait" class="portrait" width="180" height="190" />
+                            </td>
+                        </tr>
+                    </table>
+
+                    <h1>
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                    </h1>
+
+                    
+                    
+                        <p style="font-weight: 700; vertical-align: middle; margin-top: 36px;">
+                            <img style="Margin-right: 7px;" src="https://raw.githubusercontent.com/dmalikhall/garver-project/main/images/clock-icon.png" width="18" height="18" alt="time frame" border="o">
+                            <span style="Margin-bottom:2px">&nbsp; Wednesday, March 1 | 12 p.m. - 1 p.m. CST</span>
+                        </p>
+                        <a href="https://INSERT_LINK" target="_blank" style="font-weight: 700; vertical-align: middle; color: #782f40;"><span
+                            style="Margin-right: 7px;"><img
+                                src="https://raw.githubusercontent.com/dmalikhall/garver-project/main/images/calendar-icon.png"
+                                width="18" height="18" alt="register here"></span>&nbsp; Registar for Webinar</a>
+
+                </td>
+                <td class="margins">&nbsp;</td>
+            </tr>
+            <!--END ROW-->
+
+        </tbody>
+    </table>
+    <!-- ########################## -->
+    <!-- FLOATED IMAGE RIGHT        -->
+    <!-- ########################## -->
+
+    <!-- ########################## -->
+    <!-- START TWO COLUMN -->
+    <!-- ########################## -->
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="sectionContainer">
+        <colgroup>
+            <col>
+            <col width="700" class="fixed-700">
+            <col>
+        </colgroup>
+        <tbody>
+
+            <!--START ROW-->
+            <tr>
+                <td class="margins">&nbsp;</td>
+                <td width="700" class="fixed-700">
+
+
+                    <!-- FORCE 700px DESKTOP CLIENTS -->
+                    <p class="force-700"><img src="http://media.garverusa.com/2020/general/spacer.png" width="700"
+                            height="1" alt="spacer" class="mobHide" /></p>
+                    <!-- END FORCE -->
+
+                    <!--START ARTICLE-->
+                    <table role="presentation" width="340" class="fixed-340" align="left" cellspacing="0"
+                        cellpadding="0" border="0" style="margin-top: 36px;">
+                        <tr>
+                            <td class="greyBg bggrey" >
+                                <a href="https://INSERT_LINK" target="_blank">
+                                    <img src="https://raw.githubusercontent.com/dmalikhall/garver-project/main/images/placeholder-6x4.jpg"
+                                        alt="Article Image" width="340" border="0" class="mob100 articleImg340 greyBg" />
+                                </a>
+                                <div style="padding: 24px;">
+                                    <h2 class="greyBg bggrey">
+                                        <a href="https://INSERT_LINK" target="_blank" class="title">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        </a>
+                                    </h2>
+                                    <p class="small greyBg bggrey">
+                                        Morbi sed libero in orci suscipit luctus. Cras viverra rhoncus turpis, non interdum
+                                        nunc tincidunt nec. Duis tincidunt dignissim pretium. Maecenas convallis placerat
+                                        eros sit amet egestas. Cras quis vestibulum turpis, at bibendum turpis. Nunc congue
+                                        turpis neque, sit amet imperdiet purus lobortis a. Morbi vel hendrerit metus, quis
+                                        vehicula nisl.
+                                    </p>
+                                    <a href="https://INSERT_LINK" target="_blank" class="callToAction red">
+                                        CALL TO ACTION &raquo;
+                                    </a>
+
+                                </div>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                    <!--END ARTICLE-->
+
+                    <!--DIVIDER-->
+                    <table role="presentation" width="18" class="divider mobHide" align="left" cellspacing="0"
+                        cellpadding="0" border="0">
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                    <!--END DIVIDER-->
+
+                    <!--START ARTICLE-->
+                    <table role="presentation" width="340" class="fixed-340" align="left" cellspacing="0"
+                        cellpadding="0" border="0" style="Margin-top: 36px;">
+                        <tr>
+                            <td class="greyBg bggrey" >
+                                <a href="https://INSERT_LINK" target="_blank">
+                                    <img src="https://raw.githubusercontent.com/dmalikhall/garver-project/main/images/placeholder-6x4.jpg"
+                                        alt="Article Image" width="340" border="0" class="mob100 articleImg340 greyBg" />
+                                </a>
+                                <div style="padding: 24px;">
+                                    <h2 class="greyBg bggrey">
+                                        <a href="https://INSERT_LINK" target="_blank" class="title">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        </a>
+                                    </h2>
+                                    <p class="small greyBg bggrey">
+                                        Morbi sed libero in orci suscipit luctus. Cras viverra rhoncus turpis, non interdum
+                                        nunc tincidunt nec. Duis tincidunt dignissim pretium. Maecenas convallis placerat
+                                        eros sit amet egestas. Cras quis vestibulum turpis, at bibendum turpis. Nunc congue
+                                        turpis neque, sit amet imperdiet purus lobortis a. Morbi vel hendrerit metus, quis
+                                        vehicula nisl.
+                                    </p>
+                                    <a href="https://INSERT_LINK" target="_blank" class="callToAction red">
+                                        CALL TO ACTION &raquo;
+                                    </a>
+
+                                </div>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                    <!--END ARTICLE-->
+                </td>
+                <td class="margins">&nbsp;</td>
+            </tr>
+            <!--END ROW-->
+
+        </tbody>
+    </table>
+    <!-- ########################## -->
+    <!-- END TWO COLUMN -->
+    <!-- ########################## -->
+
+    <!-- ########################## -->
+    <!-- START TWO COLUMN -->
+    <!-- ########################## -->
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="sectionContainer">
+        <colgroup>
+            <col>
+            <col width="700" class="fixed-700">
+            <col>
+        </colgroup>
+        <tbody>
+
+            <!--START ROW-->
+            <tr>
+                <td class="margins">&nbsp;</td>
+                <td width="700" class="fixed-700">
+
+
+                    <!-- FORCE 700px DESKTOP CLIENTS -->
+                    <p class="force-700"><img src="http://media.garverusa.com/2020/general/spacer.png" width="700"
+                            height="1" alt="spacer" class="mobHide" /></p>
+                    <!-- END FORCE -->
+
+                    <!--START ARTICLE-->
+                    <table role="presentation" width="340" class="fixed-340" align="left" cellspacing="0"
+                        cellpadding="0" border="0" style="Margin-top: 36px; Margin-bottom: 36px;">
+                        <tr>
+                            <td class="greyBg bggrey"  style="padding: 24px;">
+                                <table role="presentation" align="left" cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                        <td align="center" class="portraitImg" style="padding-right: 24px">
+                                            <img src="https://raw.githubusercontent.com/dmalikhall/garver-project/main/images/portrait.png"
+                                                alt="portrait" class="portrait" width="100" height="110" />
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p class="small" style="Margin-bottom: -5px; font-weight: 700; letter-spacing: 1px; color: #999999;">
+                                    CITY, ST
+                                </p>
+                                <h3 class="lineSpacingMiddle" style="font-weight: 700;">First Lastname</h3>
+                                <p class="small" style="Margin-top: -10px; font-style: italic;">
+                                    Job Title Here
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <!--END ARTICLE-->
+
+                    <!--DIVIDER-->
+                    <table role="presentation" width="18" class="divider mobHide" align="left" cellspacing="0"
+                        cellpadding="0" border="0">
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                    <!--START ARTICLE-->
+                    <table role="presentation" width="340" class="fixed-340" align="left" cellspacing="0"
+                        cellpadding="0" border="0" style="Margin-top: 36px; Margin-bottom: 36px;">
+                        <tr>
+                            <td class="greyBg bggrey"  style="padding: 24px;">
+                                <table role="presentation" align="left" cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                        <td align="center" class="portraitImg" style="padding-right: 24px">
+                                            <img src="https://raw.githubusercontent.com/dmalikhall/garver-project/main/images/portrait.png"
+                                                alt="portrait" class="portrait" width="100" height="110" />
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p class="small" style="Margin-bottom: -5px; font-weight: 700; letter-spacing: 1px; color: #999999;">
+                                    CITY, ST
+                                </p>
+                                <h3 class="lineSpacingMiddle" style="font-weight: 700;">First Lastname</h3>
+                                <p class="small" style="Margin-top: -10px; font-style: italic;">
+                                    Job Title Here
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <!--END ARTICLE-->
+                </td>
+                <td class="margins">&nbsp;</td>
+            </tr>
+            <!--END ROW-->
+
+        </tbody>
+    </table>
+    <!-- ########################## -->
+    <!-- END TWO COLUMN -->
+    <!-- ########################## -->
+
+
+    <!-- ########################## -->
+    <!-- FOOTER BAR -->
+    <!-- ########################## -->
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="sectionContainer greySection">
+        <colgroup>
+            <col />
+            <col width="700" class="fixed-700" />
+            <col />
+        </colgroup>
+        <tbody>
+            <tr>
+                <td class="margins">&nbsp;</td>
+                <td width="700" class="fixed-700 padding">
+                    <p>
+                        For additional information, contact FIRST_NAME LAST_NAME.<br />
+                        <a
+                            href="mailto:USER_ALIAS@GarverUSA.com?subject=Subject%20Line"><strong>USER_ALIAS@GarverUSA.com</strong></a>
+                        | <a href="tel:000.000.00000"><strong>000.000.00000</strong></a>
+                    </p>
+
+
+                    <a href="https://garverusa.com" style="color: #782f40; text-decoration: none;">
+                        <img src="https://raw.githubusercontent.com/dmalikhall/garver-project/main/images/garver-alt-logo.png"
+                            alt="Garver Home Link" class="logoFooter" width="130" height="23" border="0" /></a>
+                </td>
+                <td class="margins">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- ########################## -->
+    <!-- END FOOTER BAR -->
+    <!-- ########################## -->
+
+
+    <!-- END BODY -->
+
+</body>
+
+</html>
